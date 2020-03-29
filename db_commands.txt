@@ -1,0 +1,8 @@
+CREATE DATABASE recit_db;
+
+CREATE TABLE messages (
+	id INTEGER NOT NULL AUTO_INCREMENT,
+    sender VARCHAR(50),
+    message VARCHAR(300),
+    PRIMARY KEY (id)
+)
